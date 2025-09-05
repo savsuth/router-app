@@ -1,11 +1,7 @@
 # Route
 
-Interactive routing application built with Python, Streamlit, and OpenStreetMap (OSM).  
-Computes multiple optimized routes between two places with support for travel modes and highway controls.
+Interactive routing application built with Python, Streamlit, and OpenStreetMap (OSM). Computes multiple optimized routes between two places with support for travel modes and highway controls. Works across any city/region available in OSM.
 
-<p align="center">
-  <img src="Images/Img1.png" alt="Router main view" width="900">
-</p>
 
 ## Key Features
 - Multiple route suggestions (K-shortest simple paths) ranked by travel time and distance
@@ -34,5 +30,10 @@ Computes multiple optimized routes between two places with support for travel mo
 - OSMnx (graph download/caching from OSM)  
 - NetworkX (weighted shortest paths, K-shortest simple paths)  
 - Folium (interactive map rendering)
+
+## Results
+<p align="center">
+  <img src="Images/Img1.png" alt="Routes comparison and options" width="900">
+</p>
 
 
